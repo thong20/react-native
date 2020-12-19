@@ -1,0 +1,160 @@
+26:15 - caching all the images =====================
+return Asset.fromModule(image).downloadAsync(); 
+
+- Các thuộc tính screenOption thường được dùng:
+    headerStyle: {},
+    headerBackImage: <Image />,
+    headerBackTitle: null,
+    headerLeftContainerStyle: {},
+    headerRightContainerStyle: {},
+
+- Cài màu background mặc định cho các Screen,
+ta sử dụng thuộc tính 'theme' của thẻ <NavigationContainer>
+link: https://reactnavigation.org/docs/themes#basic-usage
+** vd: cài tất cả các Screen có màu nền background là màu đỏ
+<NavigationContainer
+    theme={colors:{
+        background: 'red'
+    }}
+>
+    {...}
+</NavigationContainer>
+
+- Các thuộc tính <FlatList /> thường được dùng:
+<FlatList
+    horizontal
+    pagingEnabled
+    scrollEnabled
+    showsHorizontalScrollIndicator={false}
+    scrollEventThrottle={16}
+    snapToAlignment='center'
+    data={illustrations}
+    extraData={this.state}
+    keyExtractor={(item, index) => `${item.id}`}
+    renderItem={({item}) => {
+        return(
+        <Image
+            source={item.source}
+            resizeMode="contain"
+            style={{}}
+        />
+        )
+    }}
+/>
+
+Sự kiện onScroll
+link: https://reactnative.dev/docs/textinput#onscroll
+** Để bắt sự scroll horizontal trong Animated
+ta sử dụng method event() của Animated
+<FlatList
+    horizontal
+    ...
+    onScroll={
+        Animated.event(
+                // Gán tọa độ x vào this.scrollX
+            [{ nativeEvent: {contentOffset: { x: this.scrollX}} }], 
+                // {listener: (event) => console.log(event)},
+            {useNativeDriver: false},
+          )
+    }
+/>
+
+
+Sự kiện Animated.event
+link: https://reactnative.dev/docs/animated#event
+
+Animated.divded()
+https://reactnative.dev/docs/0.5/animated#divide
+
+interpolate()
+link: https://reactnative.dev/docs/0.5/animatedvalue#interpolate
+
+sử dụng thẻ <Image /> để ảnh vừa khít màn hình
+const {width, height} = Dimensions.get('window')
+<Image
+    source={item.source}
+    resizeMode="center"
+    style={{width, height: height / 2, overflow: 'visible'}}
+/>
+
+
+- Hàm Math.ceil và Math.trunc
+    ceil: làm tròn lên
+    trunc: chỉ lấy phần nguyên
+vd:
+-------------------------------------
+|      |  Math.trunc   |   Math.ceil |
+-------------------------------------
+| 2.1  |      2        |       3     |
+| 4.05 |      2        |       4     |
+-------------------------------------
+
+- Component <KeyboardAvoidingView behavior="padding" style={{flex: 1}}>
+
+- <Text style={{textDecorationLine: 'underline'}}> 
+- <Input
+    secure
+    label="Password"
+    style={styles.input}
+    defaultValue={this.state.password}
+    onChangeText={text => this.setState({ password: text })}
+/>
+
+- Array.includes() => trả về TRUE hoặc FALSE
+link: https://codelearn.io/learning/javascript-co-ban/159480
+
+- Object.keys(obj)
+Trả về 1 mảng các tên thuộc tính của obj 
+vd:
+var obj = { props: ['gg',99] }
+
+console.log(typeof obj.props) // Object
+console.log(typeof obj.props[0]) // String
+Object.keys(obj) // ['props'] -- thuộc tính của 1 obj cũng là object
+Object.keys(obj.props) // ['0', '1']
+
+- toFixed() method
+Chuyển 1 số thành 1 chuỗi, và làm tròn theo số thập phân
+vd:
+var n = 5.5678;
+n.toFixed(0); // => 6 
+n.toFixed(1); // => 5.6
+n.toFixed(2); // => 5.57
+
+
+- thuộc tính flex-wrap='wrap'
+
+<Input
+  placeholder='Search'
+  placeholderTextColor={theme.colors.gray}
+  style={styles.searchInput}
+  onChangeText={text => this.setState({ searchString: text })}
+  value={searchString}
+  rightStyle={styles.searchRight} ****************
+  rightLabel={ *********************
+    <Icon.FontAwesome
+      name='search'
+      size={theme.sizes.base / 1.6}
+      color={theme.colors.gray}
+      style={styles.searchIcon}
+    />
+  }
+/>
+
+- import trong thư viện 'react-native-vector-icons'
+Cách 1:
+import * as Icon from 'react-native-vector-icons';
+// Sử dụng
+<Icon.FontAwesome ... />
+Cách 2:
+import Icon from 'react-native-vector-icons/FontAwesome';
+// Sử dụng
+<Icon ... />
+
+- images.slice(1).map(() => {})
+
+
+
+
+
+
