@@ -1,1 +1,1 @@
-first commit
+template init for project
