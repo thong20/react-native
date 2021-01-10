@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../Flipper-RSocket/rsocket/RSocketResponder.h

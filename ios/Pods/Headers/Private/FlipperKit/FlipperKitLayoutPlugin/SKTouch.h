@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../FlipperKit/iOS/Plugins/FlipperKitLayoutPlugin/FlipperKitLayoutPlugin/SKTouch.h

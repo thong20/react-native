@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../FlipperKit/iOS/Plugins/FlipperKitNetworkPlugin/FlipperKitNetworkPlugin/SonarKitNetworkPlugin+CPPInitialization.h

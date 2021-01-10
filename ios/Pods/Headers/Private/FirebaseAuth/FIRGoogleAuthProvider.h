@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRGoogleAuthProvider.h

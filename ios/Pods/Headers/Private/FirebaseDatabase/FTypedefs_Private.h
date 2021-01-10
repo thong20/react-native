@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseDatabase/FirebaseDatabase/Sources/Api/Private/FTypedefs_Private.h

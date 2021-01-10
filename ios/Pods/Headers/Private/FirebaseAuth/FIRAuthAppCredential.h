@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseAuth/FirebaseAuth/Sources/SystemService/FIRAuthAppCredential.h

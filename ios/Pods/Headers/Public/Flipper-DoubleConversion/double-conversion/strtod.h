@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../Flipper-DoubleConversion/double-conversion/strtod.h

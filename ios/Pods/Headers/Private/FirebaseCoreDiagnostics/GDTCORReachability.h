@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseCoreDiagnostics/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORReachability.h

@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseAuth/FirebaseAuth/Sources/SystemService/FIRSecureTokenService.h

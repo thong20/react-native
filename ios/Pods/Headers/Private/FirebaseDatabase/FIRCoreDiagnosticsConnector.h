@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseDatabase/FirebaseCore/Sources/Private/FIRCoreDiagnosticsConnector.h

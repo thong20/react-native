@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseCoreDiagnostics/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORUploader.h

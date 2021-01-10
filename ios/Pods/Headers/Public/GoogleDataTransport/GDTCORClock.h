@@ -1,1 +1,1 @@
-IntxLNK.
+../../../GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORClock.h

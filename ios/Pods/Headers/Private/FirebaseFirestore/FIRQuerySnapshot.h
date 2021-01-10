@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRQuerySnapshot.h

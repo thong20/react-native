@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseFirestore/FirebaseCore/Sources/Private/FIRComponentType.h

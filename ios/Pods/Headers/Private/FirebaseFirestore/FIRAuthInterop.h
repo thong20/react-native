@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseFirestore/Interop/Auth/Public/FIRAuthInterop.h

@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h

@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseDatabase/FirebaseDatabase/Sources/Api/Private/FIRDatabaseQuery_Private.h

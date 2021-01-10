@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FlipperKit/iOS/FlipperKit/FlipperResponder.h

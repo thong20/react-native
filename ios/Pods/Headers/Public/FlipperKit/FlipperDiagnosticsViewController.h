@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FlipperKit/iOS/FlipperKit/FlipperDiagnosticsViewController.h

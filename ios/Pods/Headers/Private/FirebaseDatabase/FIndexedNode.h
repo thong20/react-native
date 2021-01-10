@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseDatabase/FirebaseDatabase/Sources/Snapshot/FIndexedNode.h

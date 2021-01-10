@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseDatabase/FirebaseCore/Sources/Private/FIRLibrary.h

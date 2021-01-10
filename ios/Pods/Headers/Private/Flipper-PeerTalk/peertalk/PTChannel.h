@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../Flipper-PeerTalk/peertalk/PTChannel.h

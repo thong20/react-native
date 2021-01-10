@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../../node_modules/@react-native-firebase/auth/ios/RNFBAuth/RNFBAuthModule.h

@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FlipperKit/iOS/FlipperKit/CppBridge/FlipperCppBridgingResponder.h

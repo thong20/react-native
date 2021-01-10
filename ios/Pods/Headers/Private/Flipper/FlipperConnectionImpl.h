@@ -1,1 +1,1 @@
-IntxLNK.
+../../../Flipper/xplat/Flipper/FlipperConnectionImpl.h

@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../../abseil/absl/strings/strip.h

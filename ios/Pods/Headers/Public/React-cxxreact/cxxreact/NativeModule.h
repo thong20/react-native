@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../../../node_modules/react-native/ReactCommon/cxxreact/NativeModule.h

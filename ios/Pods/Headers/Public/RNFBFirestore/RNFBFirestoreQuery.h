@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../../node_modules/@react-native-firebase/firestore/ios/RNFBFirestore/RNFBFirestoreQuery.h

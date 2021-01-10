@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseAuth/FirebaseAuth/Sources/MultiFactor/FIRMultiFactorInfo+Internal.h

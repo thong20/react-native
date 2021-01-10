@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/Public/FIRCoreDiagnostics.h

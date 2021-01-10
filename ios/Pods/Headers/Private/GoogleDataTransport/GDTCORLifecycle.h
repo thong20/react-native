@@ -1,1 +1,1 @@
-IntxLNK.
+../../../GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORLifecycle.h

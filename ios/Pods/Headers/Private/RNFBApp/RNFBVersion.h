@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../../node_modules/@react-native-firebase/app/ios/RNFBApp/RNFBVersion.h

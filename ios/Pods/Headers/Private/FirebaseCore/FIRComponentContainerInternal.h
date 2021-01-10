@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseCore/FirebaseCore/Sources/FIRComponentContainerInternal.h

@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../Flipper-Glog/src/glog/stl_logging.h

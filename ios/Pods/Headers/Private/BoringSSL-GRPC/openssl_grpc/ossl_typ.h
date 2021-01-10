@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../BoringSSL-GRPC/src/include/openssl/ossl_typ.h

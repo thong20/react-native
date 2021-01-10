@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../../node_modules/@react-native-firebase/database/ios/RNFBDatabase/RNFBDatabaseReferenceModule.h

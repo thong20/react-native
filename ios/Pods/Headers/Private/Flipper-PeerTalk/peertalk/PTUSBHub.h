@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../Flipper-PeerTalk/peertalk/PTUSBHub.h

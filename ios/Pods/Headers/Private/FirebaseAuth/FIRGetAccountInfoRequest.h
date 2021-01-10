@@ -1,1 +1,1 @@
-IntxLNK.
+../../../FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/FIRGetAccountInfoRequest.h

@@ -1,1 +1,1 @@
-IntxLNK.
+../../../../../../node_modules/react-native/Libraries/LinkingIOS/RCTLinkingPlugins.h
