@@ -1,14 +1,16 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
+pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
 platform :ios, '10.0'
 
-target 'RN_CLI_TestCode' do
+target 'RN_CLI_Project' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'RN_CLI_TestCodeTests' do
+  target 'RN_CLI_ProjectTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +25,10 @@ target 'RN_CLI_TestCode' do
   end
 end
 
-target 'RN_CLI_TestCode-tvOS' do
-  # Pods for RN_CLI_TestCode-tvOS
+target 'RN_CLI_Project-tvOS' do
+  # Pods for RN_CLI_Project-tvOS
 
-  target 'RN_CLI_TestCode-tvOSTests' do
+  target 'RN_CLI_Project-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

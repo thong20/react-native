@@ -1,6 +1,0 @@
-module Pods_RN_CLI_TestCode_RN_CLI_TestCodeTests {
-  umbrella header "Pods-RN_CLI_TestCode-RN_CLI_TestCodeTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

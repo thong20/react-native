@@ -1,0 +1,6 @@
+module Pods_RN_CLI_Project {
+  umbrella header "Pods-RN_CLI_Project-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,55 @@
+Lỗi Icon component của native-base
+link: https://github.com/oblador/react-native-vector-icons
+ở phần Option: with CocoaPods
+
+Thực hiện:
+- Trong file Podfile thêm đoạn code sau ở phía trên đầu mà dưới require_relative:
+pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+=> cd vào folder ios => gõ lệnh: pod update => Enter để cập nhật lại Podfile
+
+Tiếp tục, trong file Info.plist (bên trong: ios / RN_CLI_Project)
+paste đoạn code bên dưới vào trong plist / dict
+vd:
+<plist version="1.0">
+  <dict>
+
+    <key>UIAppFonts</key>
+    <array>
+        <string>AntDesign.ttf</string>
+        <string>Entypo.ttf</string>
+        <string>EvilIcons.ttf</string>
+        <string>Feather.ttf</string>
+        <string>FontAwesome.ttf</string>
+        <string>FontAwesome5_Brands.ttf</string>
+        <string>FontAwesome5_Regular.ttf</string>
+      <string>FontAwesome5_Solid.ttf</string>
+        <string>Foundation.ttf</string>
+        <string>Ionicons.ttf</string>
+        <string>MaterialIcons.ttf</string>
+        <string>MaterialCommunityIcons.ttf</string>
+        <string>SimpleLineIcons.ttf</string>
+        <string>Octicons.ttf</string>
+        <string>Zocial.ttf</string>
+        <string>Fontisto.ttf</string>
+    </array>
+    ......
+    ......
+  </dict>
+</plist>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

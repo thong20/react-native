@@ -114,22 +114,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Google-Mobile-Ads-SDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>GoogleAppMeasurement.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>GoogleDataTransport.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>GoogleUserMessagingPlatform.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -139,42 +124,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>OneSignal.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>OpenSSL-Universal.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>PersonalizedAdConsent-PersonalizedAdConsent.xcscheme</key>
+		<key>Pods-RN_CLI_Project-RN_CLI_ProjectTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>PersonalizedAdConsent.xcscheme</key>
+		<key>Pods-RN_CLI_Project-tvOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-RN_CLI_TestCode-RN_CLI_TestCodeTests.xcscheme</key>
+		<key>Pods-RN_CLI_Project-tvOSTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-RN_CLI_TestCode-tvOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-RN_CLI_TestCode-tvOSTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-RN_CLI_TestCode.xcscheme</key>
+		<key>Pods-RN_CLI_Project.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -195,11 +165,6 @@
 			<false/>
 		</dict>
 		<key>RNCMaskedView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>RNFBAdMob.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -244,12 +209,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>React-Core-AccessibilityResources.xcscheme</key>
+		<key>RNVectorIcons.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>React-Core.xcscheme</key>
+		<key>React-Core.common-AccessibilityResources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>React-Core.common-CoreModulesHeaders-AccessibilityResources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>React-Core.common-CoreModulesHeaders.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>React-Core.common.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -385,11 +365,6 @@
 			<false/>
 		</dict>
 		<key>nanopb.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>react-native-onesignal.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
