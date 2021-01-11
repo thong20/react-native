@@ -1,5 +1,9 @@
 Desktop / RN_CLI_Project
 
+Cấu hình:
+Java JDK: 15
+Gradle: 6.3
+
 yarn add @react-native-firebase/app
 yarn add @react-native-firebase/auth
 yarn add @react-native-firebase/firestore
